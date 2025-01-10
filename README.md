@@ -25,6 +25,7 @@ flotador).
 **Desarrollo**
 Estudio del impacto de sistemas agrícolas avanzados basados en IoT en invernaderos comparados con métodos tradicionales. El proyecto incluyó el análisis de métricas vegetativas y radiculares de plantas para clasificar muestras y evaluar el rendimiento de diferentes técnicas agrícolas.
 *Herramientas:* Python, pandas, seaborn, matplotlib, scikit-learn, XGBoost, KNN, GridSearchCV, Pipeline.
+
 **Resultados clave:**
 Clasificación de muestras con precisión perfecta (100%) mediante modelos KNN y XGBoost.
 Identificación de patrones críticos en métricas como contenido de clorofila, área foliar y tasa de crecimiento.
