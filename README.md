@@ -6,21 +6,20 @@ El dataset se obtuvo de la tesis de maestría realizada por el estudiante Mohamm
 Computación, Facultad de Ciencias de la Computación y Matemáticas de la Universidad de Tikrit, Irak.
 
 **Descripción de las columnas:**
-*Aleatorio:* un identificador para cada registro, que probablemente indique una muestra o lote aleatorio (tipo de objeto).
-*Promedio de clorofila en la planta (ACHP):* El contenido promedio de clorofila en la planta (tipo flotador).
-*Tasa de altura de la planta (PHR):* La tasa de crecimiento en altura de la planta (tipo flotador).
-*Peso húmedo promedio del crecimiento vegetativo (AWWGV):* El peso húmedo promedio del crecimiento vegetativo (tipo flotador).
-*Área foliar promedio de la planta (ALAP):* El área foliar promedio de la planta (tipo flotador).
-*Número promedio de hojas de planta (ANPL):* El número promedio de hojas por planta (tipo flotador).
-*Diámetro promedio de raíz (ARD):* El diámetro promedio de las raíces de la planta (tipo flotador).
-*Peso seco promedio de la raíz (ADWR):* El peso seco promedio de las raíces de la planta (tipo flotador).
-*Porcentaje de materia seca para crecimiento vegetativo (PDMVG):* El porcentaje de materia seca en crecimiento vegetativo (tipo flotador).
-*Longitud promedio de raíz (ARL):* La longitud promedio de las raíces de la planta (tipo flotador).
-*Peso húmedo promedio de la raíz (AWWR):* El peso húmedo promedio de las raíces de la planta (tipo flotador).
-*Peso seco promedio de plantas vegetativas (ADWV):* El peso seco promedio de las partes vegetativas de la planta (tipo flotador).
-*Porcentaje de materia seca para el crecimiento de las raíces (PDMRG):* El porcentaje de materia seca en el crecimiento de las raíces (tipo 
-flotador).
-*Clase:* La clase o categoría a la que pertenece el registro de planta (tipo de objeto).
+*Aleatorio:* un identificador para cada registro, que probablemente indique una muestra o lote aleatorio.
+*Promedio de clorofila en la planta (ACHP):* El contenido promedio de clorofila en la planta.
+*Tasa de altura de la planta (PHR):* La tasa de crecimiento en altura de la planta.
+*Peso húmedo promedio del crecimiento vegetativo (AWWGV):* El peso húmedo promedio del crecimiento vegetativo.
+*Área foliar promedio de la planta (ALAP):* El área foliar promedio de la planta.
+*Número promedio de hojas de planta (ANPL):* El número promedio de hojas por planta.
+*Diámetro promedio de raíz (ARD):* El diámetro promedio de las raíces de la planta.
+*Peso seco promedio de la raíz (ADWR):* El peso seco promedio de las raíces de la planta.
+*Porcentaje de materia seca para crecimiento vegetativo (PDMVG):* El porcentaje de materia seca en crecimiento vegetativo.
+*Longitud promedio de raíz (ARL):* La longitud promedio de las raíces de la planta.
+*Peso húmedo promedio de la raíz (AWWR):* El peso húmedo promedio de las raíces de la planta.
+*Peso seco promedio de plantas vegetativas (ADWV):* El peso seco promedio de las partes vegetativas de la planta.
+*Porcentaje de materia seca para el crecimiento de las raíces (PDMRG):* El porcentaje de materia seca en el crecimiento de las raíces.
+*Clase:* La clase o categoría a la que pertenece el registro de planta.
 
 **Desarrollo**
 Estudio del impacto de sistemas agrícolas avanzados basados en IoT en invernaderos comparados con métodos tradicionales. El proyecto incluyó el análisis de métricas vegetativas y radiculares de plantas para clasificar muestras y evaluar el rendimiento de diferentes técnicas agrícolas.
