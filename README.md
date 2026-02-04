@@ -122,7 +122,7 @@ Este enfoque facilita la reutilización y escalabilidad del proyecto.
 Este proyecto tiene fines educativos y demostrativos.
 No sustituye sistemas agrícolas productivos sin validación en campo.
 
-##👤 Autor
+## 👤 Autor
 
 Flavia Hepp
 Data Science en formación· Machine Learning · IoT · Agricultura Inteligente
