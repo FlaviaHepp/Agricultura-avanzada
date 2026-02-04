@@ -87,11 +87,11 @@ Este enfoque facilita la reutilización y escalabilidad del proyecto.
 - Python
 - pandas / numpy
 - Matplotlib / Seaborn
-- Plotly
+- `Plotly`
 - scikit-learn
 - XGBoost
-- joblib
-- Machine Learning aplicado a IoT
+- `joblib`
+- `Machine Learning aplicado a IoT`
 
 ## 📂Estructura del proyecto
 
