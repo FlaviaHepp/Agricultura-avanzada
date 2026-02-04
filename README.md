@@ -1,8 +1,9 @@
-# 🌱 Agricultura Avanzada con IoT y Machine Learning
+# 🌱Agricultura Avanzada con IoT y Machine Learning
 
 Este proyecto implementa un sistema de análisis y clasificación basado en datos IoT para agricultura avanzada, utilizando técnicas de Análisis Exploratorio de Datos (EDA), Machine Learning supervisado y optimización de modelos para la toma de decisiones inteligentes en entornos agrícolas.
 
-🎯 Objetivo del proyecto
+## 🎯Objetivo del proyecto
+
 - Analizar datos provenientes de sensores IoT aplicados a agricultura.
 - Explorar patrones, distribuciones y correlaciones entre variables ambientales.
 - Clasificar estados o tipos de cultivos mediante modelos de Machine Learning.
@@ -10,7 +11,8 @@ Este proyecto implementa un sistema de análisis y clasificación basado en dato
 - Optimizar hiperparámetros y seleccionar el mejor modelo.
 - Construir una base reutilizable para sistemas de agricultura de precisión.
 
-📁 Descripción del dataset
+## 📁Descripción del dataset
+
 El conjunto de datos (Advanced_IoT_Dataset.csv) contiene mediciones simuladas/reales de sensores IoT agrícolas, incluyendo variables ambientales y una clase objetivo:
 - Variables numéricas (sensores)
 - Variables categóricas
@@ -19,7 +21,8 @@ El conjunto de datos (Advanced_IoT_Dataset.csv) contiene mediciones simuladas/re
   - Codificación de variables categóricas
   - Variables aleatorias para robustez del modelo
   
-📊 Análisis Exploratorio de Datos (EDA)
+## 📊Análisis Exploratorio de Datos (EDA)
+
 - Limpieza y validación
 - Detección de valores faltantes
 - Identificación de duplicados
@@ -32,14 +35,16 @@ El conjunto de datos (Advanced_IoT_Dataset.csv) contiene mediciones simuladas/re
 - Matrices de correlación
 - Visualización comparativa de estadísticas descriptivas
 
-🔄 Preprocesamiento de datos
+## 🔄Preprocesamiento de datos
+
 - Codificación de variables categóricas con LabelEncoder y OneHotEncoder
 - Separación de variables predictoras y variable objetivo
 - División entrenamiento / prueba
 - Escalado de variables con StandardScaler
 - Transformación a formato compatible con pipelines
 
-🤖 Modelos de Machine Learning
+## 🤖Modelos de Machine Learning
+
 - Se entrenan y comparan múltiples modelos de clasificación:
 - Modelos base
 - Regresión Logística
@@ -49,7 +54,8 @@ El conjunto de datos (Advanced_IoT_Dataset.csv) contiene mediciones simuladas/re
 - K-Nearest Neighbors (KNN)
 - XGBoost Classifier
 
-⚙️ Optimización y evaluación
+## ⚙️Optimización y evaluación 
+
 - GridSearchCV para ajuste de hiperparámetros
 - Validación cruzada con K-Fold
 - Métricas de evaluación:
@@ -59,7 +65,8 @@ El conjunto de datos (Advanced_IoT_Dataset.csv) contiene mediciones simuladas/re
   -- F1 Score
   -- MAE / MSE (en evaluaciones extendidas)
 
-🧩 Arquitectura avanzada
+## 🧩Arquitectura avanzada
+
 - Clase MultiModelEvaluator
 - Se implementa una clase personalizada que permite:
 - Entrenar múltiples modelos automáticamente
@@ -70,11 +77,13 @@ El conjunto de datos (Advanced_IoT_Dataset.csv) contiene mediciones simuladas/re
 
 Este enfoque facilita la reutilización y escalabilidad del proyecto.
 
-💾 Persistencia del modelo
+## 💾Persistencia del modelo
+
 - Exportación del mejor modelo entrenado mediante joblib
 - Listo para integración en sistemas productivos o APIs
 
-🛠️ Tecnologías utilizadas
+## 🛠️Tecnologías utilizadas
+
 - Python
 - pandas / numpy
 - Matplotlib / Seaborn
@@ -84,48 +93,36 @@ Este enfoque facilita la reutilización y escalabilidad del proyecto.
 - joblib
 - Machine Learning aplicado a IoT
 
-📂 Estructura del proyecto
+## 📂Estructura del proyecto
+
 ├── Agricultura avanzada IoT.py
 ├── Advanced_IoT_Dataset.csv
 ├── best_model.pkl
 └── README.md
 
-▶️ Cómo ejecutar el proyecto
 
-Clonar el repositorio
+## 📌Resultados principales
 
-git clone https://github.com/tu_usuario/nombre_del_repo.git
-
-
-Instalar dependencias
-
-pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost joblib
-
-
-Ejecutar el script
-
-python "Agricultura avanzada IoT.py"
-
-📌 Resultados principales
 - Alta separabilidad entre clases del dataset.
 - Modelos KNN y XGBoost alcanzan precisión perfecta en el conjunto de prueba.
 - El dataset presenta patrones claros aprovechables por modelos supervisados.
 - Modelos simples pueden ser tan efectivos como modelos complejos.
 - Pipeline escalable para proyectos de Smart Farming.
 
-🌍 Aplicaciones reales
+## 🌍Aplicaciones reales
+
 - Monitoreo inteligente de cultivos
 - Agricultura de precisión
 - Sistemas de alerta temprana
 - Optimización de recursos (agua, fertilizantes)
 - Integración con plataformas IoT y dashboards
 
-⚠️ Disclaimer
+## ⚠️Disclaimer
 
 Este proyecto tiene fines educativos y demostrativos.
 No sustituye sistemas agrícolas productivos sin validación en campo.
 
-👤 Autor
+##👤 Autor
 
 Flavia Hepp
-Data Science · Machine Learning · IoT · Agricultura Inteligente
+Data Science en formación· Machine Learning · IoT · Agricultura Inteligente
